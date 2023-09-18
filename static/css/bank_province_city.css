@@ -1,0 +1,198 @@
+.bpc_label {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+}
+.bpc_selection {
+	width: 92%;
+    border-top-left-radius: var(--textfield_radius);
+    border-bottom-left-radius: var(--textfield_radius);
+    padding: 9px;
+    color:var(--textfield_txt_placeholder);
+    text-align: left;
+    box-shadow: var(--textfield_innershadow_default);
+    background: var(--textfield_bg_default);
+    border: var(--textfield_borderthick_default) solid var(--textfield_border_default);
+    border-right: 0px;
+}
+.bpc_label img {
+	height: 80px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.bank_alpha.active {    
+    background: var(--primary-color);
+    color: white;
+}
+.bank_alpha_favourite_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bank_alpha_favourite_btn{
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    width: 49%;
+    text-align: left;
+}
+.bank_alpha_favourite_btn img{
+    width: 28px;
+    margin-right: 4px;
+}
+.bpc_bank_container {
+    background: #FFFFFF;
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    /*padding: 0 10px;*/
+    opacity: 0;
+    transition: 0.5s all ease;
+    overflow-y: hidden;
+}
+.bpc_bank_container.active{    
+   overflow-y: scroll;
+    visibility: visible;
+    transition: 0.5s all ease;
+    top: -45px;
+    opacity: 1;
+    background: var(--bg_general);
+}
+
+.bank_alpha_container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+.bank_alpha_btn {
+    border: 1px solid #e2e2e2 !important;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: calc(2% * 5 / 4);
+    margin-bottom: 2%;
+    width: 18%;
+    text-align: center;
+}
+.bank_alpha_btn:nth-child(5n){
+    margin-right: 0px;
+}
+.bank_alpha_btn.active{
+    color: white;
+    background-color: #0F1C2D;
+}
+.bank_alpha_title {
+    border-bottom: 1px solid var(--line_general);
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 24px;
+    color: var(--txt_subtitle);
+}
+.bank_alpha_name {
+    padding: 10px 5px;
+    color: var(--txt_content);
+    border-radius: 8px;
+}
+.selected_bank {
+    color: #FFFFFF;
+    background: #0F1C2D;
+}
+.bpc_final_container {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    /*padding: 0 10px;*/
+}
+.bpc_final_container.active{    
+    visibility: visible;
+}
+.bank_alpha_btn:nth-last-child(1) {
+    margin-right: auto;
+}
+.bankcards_add_form .select2-selection__arrow{
+  display: none;
+}
+.select2-container--default .select2-selection--single .select2-selection__clear{
+    position: absolute;
+    right: 10px;
+    top:0px;
+}
+.clearInput {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#province_city_popup .selector{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid var(--line_general);
+    padding: 8px 0px;
+    margin-bottom: 8px;
+}
+#province_city_popup .selector .province_selector{
+    color: var(--txt_subtitle);
+    display: none;
+}
+#province_city_popup .selector .city_selector{
+     color: var(--txt_subtitle);
+     display: none;
+}
+#province_city_popup .selector .confirm_btn{
+    visibility: hidden;
+    color: var(--btn_txt_txt_activated);
+
+}
+#province_city_popup .selector .province_selector.show,#province_city_popup .selector .city_selector.show{
+    display: block;
+
+}
+#province_city_popup .selector .province_selector.done,#province_city_popup .selector .city_selector.done{
+    color: var(--popup_label);
+
+}
+#province_city_popup .selector .confirm_btn.show{
+    visibility: visible;
+
+}
+#province_city_popup .name_item {
+    padding: 10px 0;
+    color: var(--txt_content);
+}
+#province_city_popup .name_item.active{
+    color:var(--popup_labe);
+}
+.bpc_final_container input:not(:placeholder-shown) ~ .clearInput{
+  display: block;
+}
+.bpc_final_container  .clearInput{
+    display: none;
+}
+.select_bank_container{
+    padding: 0 5%;
+}
+
+.bankcards_add_form .select2-container--default .select2-selection--single .select2-selection__placeholder{
+    color: var(--textfield_txt_placeholder);
+}
+
+.bankcards_add_form .select2-container--default .select2-selection--single{
+    border-radius: var(--textfield_radius)!important;
+}

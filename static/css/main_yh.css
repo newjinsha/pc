@@ -1,0 +1,33 @@
+/* vue預設 */
+[v-cloak] {
+  display: none;
+}
+
+/* layui-頁碼 */
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+  background-color: rgb(53, 53, 53) !important;
+  left: 0px !important;
+  top: 0px !important;
+  padding: 0px !important;
+}
+.layui-laypage a, .layui-laypage span {
+  /* padding: 0 7px !important; */
+  background: rgb(13, 13, 13) !important;
+  color: #fff !important;
+  border: 1px solid #ffcd8a !important;
+}
+
+/* 泛用造型 */
+.tccon .con2 {
+  display: block;
+  max-height: 310px;
+  overflow: auto;
+}
+.tccon .con2 table tr th {
+  height: 40px;
+  line-height: 40px;
+}
+.tccon .con2 table tr td {
+  height: 40px;
+  line-height: 20px;
+}
