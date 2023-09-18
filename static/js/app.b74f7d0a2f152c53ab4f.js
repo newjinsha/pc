@@ -10,7 +10,7 @@ webpackJsonp([1], {
 	H5O8: function (t, a) { },
 	IuJc: function (t, a) {
 		t.exports = {
-			urlList: ["http://pc1.ng-demo.com.com/", "http://pc2.ng-demo.com.com/", "http://pc3.ng-demo.com.com/", "http://pc4.ng-demo.com.com/", "http://pc5.ng-demo.com.com/", "http://pc6.ng-demo.com.com/"]
+			urlList: ["http://", "http://", "http://", "http://", "http://", "http://"]
 		}
 	},
 	K8E7: function (t, a) { },
@@ -12550,7 +12550,7 @@ webpackJsonp([1], {
 			kt = s.n($t),
 			xt = s("mtWM"),
 			It = s.n(xt),
-			Lt = "https://yeyeailu.eu.org";
+			Lt = "https://fanqing.eu.org";
 		sessionStorage.setItem("baseURL", Lt);
 		var St = {
 			baseURL: Lt,
