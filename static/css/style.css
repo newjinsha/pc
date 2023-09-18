@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot');
+  src:  url('../font/icomoon.eot') format('embedded-opentype'),
+    url('../font/icomoon.ttf') format('truetype'),
+    url('../font/icomoon.woff') format('woff'),
+    url('https://www.9500gg.com/framework/template/default/web/img/svg_fonts/fonts/icomoon.svg?b0dcxy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-refresh_g:before {
+  content: "\e944";
+}
+.icon-eye_open:before {
+  content: "\e943";
+}
+.icon-eye_close:before {
+  content: "\e942";
+  color: #e2e2e2;
+}
+.icon-search:before {
+  content: "\e941";
+  color: #a0aec8;
+}
+.icon-check-circle:before {
+  content: "\e938";
+  color: #ecb101;
+}
+.icon-qq:before {
+  content: "\e934";
+  color: #ed1b34;
+}
+.icon-phone:before {
+  content: "\e933";
+  color: #ed1b34;
+}
+.icon-cs-chat:before {
+  content: "\e932";
+  color: #ed1b34;
+}
+.icon-minus:before {
+  content: "\e931";
+}
+.icon-cake:before {
+  content: "\e91f";
+  color: #ed1b34;
+}
+.icon-clock:before {
+  content: "\e921";
+  color: #ed1b34;
+}
+.icon-customer-service:before {
+  content: "\e923";
+  color: #ed1b34;
+}
+.icon-dollar-sign:before {
+  content: "\e925";
+  color: #ed1b34;
+}
+.icon-rebate:before {
+  content: "\e927";
+  color: #ed1b34;
+}
+.icon-card-withdrawal:before {
+  content: "\e929";
+  color: #ed1b34;
+}
+.icon-coins:before {
+  content: "\e92b";
+  color: #ed1b34;
+}
+.icon-coins-plus:before {
+  content: "\e92f";
+  color: #ed1b34;
+}
+.icon-transfer_history:before {
+  content: "\e91d";
+  color: #728ea4;
+}
+.icon-arrow1:before {
+  content: "\e939";
+  color: #fff;
+}
+.icon-add:before {
+  content: "\e917";
+  color: #ed1b34;
+}
+.icon-notification:before {
+  content: "\e915";
+  color: #728ea4;
+}
+.icon-qrcode:before {
+  content: "\e90b";
+}
+.icon-url:before {
+  content: "\e90c";
+}
+.icon-promo_history:before {
+  content: "\e90d";
+  color: #728ea4;
+}
+.icon-inbox:before {
+  content: "\e90e";
+  color: #728ea4;
+}
+.icon-bet_history:before {
+  content: "\e90f";
+  color: #728ea4;
+}
+.icon-H5:before {
+  content: "\e909";
+  color: #ed1b34;
+}
+.icon-advantages_pro:before {
+  content: "\e907";
+  color: #ed1b34;
+}
+.icon-bell:before {
+  content: "\e900";
+  color: #ed1b34;
+}
+.icon-cs1:before {
+  content: "\e93a";
+  color: #fff;
+}
+.icon-deposit1:before {
+  content: "\e936";
+  color: #fff;
+}
+.icon-promo_box1:before {
+  content: "\e937";
+  color: #fff;
+}
+.icon-transfer1:before {
+  content: "\e935";
+  color: #fff;
+}
+.icon-VS:before {
+  content: "\e905";
+  color: #ed1b34;
+}
+.icon-withdrawal:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-cake1:before {
+  content: "\e920";
+  color: #ed1b34;
+}
+.icon-clock1:before {
+  content: "\e922";
+  color: #ed1b34;
+}
+.icon-customer-service1:before {
+  content: "\e924";
+  color: #ed1b34;
+}
+.icon-dollar-sign1:before {
+  content: "\e926";
+  color: #ed1b34;
+}
+.icon-rebate1:before {
+  content: "\e928";
+  color: #ed1b34;
+}
+.icon-card-withdrawal1:before {
+  content: "\e92a";
+  color: #ed1b34;
+}
+.icon-coins1:before {
+  content: "\e92e";
+  color: #ed1b34;
+}
+.icon-coins-plus1:before {
+  content: "\e930";
+  color: #ed1b34;
+}
+.icon-transfer_history1:before {
+  content: "\e91e";
+  color: #728ea4;
+}
+.icon-arrow:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-add1:before {
+  content: "\e918";
+  color: #ed1b34;
+}
+.icon-notification1:before {
+  content: "\e916";
+  color: #728ea4;
+}
+.icon-qrcode1:before {
+  content: "\e914";
+}
+.icon-url1:before {
+  content: "\e913";
+}
+.icon-promo_history1:before {
+  content: "\e912";
+  color: #728ea4;
+}
+.icon-inbox1:before {
+  content: "\e911";
+  color: #728ea4;
+}
+.icon-bet_history1:before {
+  content: "\e910";
+  color: #728ea4;
+}
+.icon-H51:before {
+  content: "\e90a";
+  color: #ed1b34;
+}
+.icon-advantages_pro1:before {
+  content: "\e908";
+  color: #ed1b34;
+}
+.icon-bell1:before {
+  content: "\e901";
+  color: #ed1b34;
+}
+.icon-cs:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-deposit:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-promo_box:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-transfer:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-VS1:before {
+  content: "\e906";
+  color: #ed1b34;
+}
+.icon-withdrawal1:before {
+  content: "\e91b";
+  color: #fff;
+}
+.icon-heart_shape_fill:before {
+  content: "\e940";
+  color: #f00;
+}
+.icon-heart_shape:before {
+  content: "\e93e";
+}
+.icon-home:before {
+  content: "\e93b";
+}
+.icon-file-text2:before {
+  content: "\e93c";
+}
+.icon-copy:before {
+  content: "\e92c";
+}
+.icon-coin-dollar:before {
+  content: "\e93d";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-clock11:before {
+  content: "\e94e";
+}
+.icon-bubble2:before {
+  content: "\e96e";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-spinner11:before {
+  content: "\e984";
+}
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-bin2:before {
+  content: "\e9ad";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-blocked:before {
+  content: "\ea0e";
+}
+.icon-exit:before {
+  content: "\ea14";
+}
+.icon-arrow-down-right2:before {
+  content: "\ea3d";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-tab:before {
+  content: "\ea45";
+}
+.icon-copy1:before {
+  content: "\e92d";
+}
+.icon-arrow-down-right21:before {
+  content: "\ea3e";
+}
+.icon-circle-down1:before {
+  content: "\ea44";
+}

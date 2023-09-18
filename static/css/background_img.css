@@ -1,0 +1,128 @@
+:root {
+    --alert_icon_success: url("../style/popup_success.png");
+    --alert_icon_warning: url("../style/popup_warning.png");
+    --alert_icon_fail: url("../style/popup_fail.png");
+    --alert_icon_process: url("../style/popup_processing.png");
+    --alert_toast_icon_success: url("../style/toast_success.png");
+    --alert_toast_icon_warning: url("../style/toast_warning.png");
+    --alert_toast_icon_fail: url("../style/toast_error.png");
+    --alert_toast_icon_process: url("../style/toast_processing.png");
+
+    --select_box_arrow: url("../style/arrow_down.png");
+    --tick_reserve: url("../style/tick.png");
+    --tick_reserve_active: url("../style/tick_a.png");
+
+    --slots_favorite: url("../style/favorite.png");
+    --slots_favorite_active: url("../style/favorite_a.png");
+    --slots_all: url("../style/slotlist_tags_all.png");
+    --slots_all_a: url("../style/slotlist_tags_all.png");
+    --slots_new: url("../style/slotlist_tags_new.png");
+    --slots_new_a: url("../style/slotlist_tags_new.png");
+    --slots_hot: url("../style/hot.png");
+    --slots_hot_a: url("../style/hot.png");
+    --slots_category_favorite: url("../style/slotlist_tags_favorite.png");
+    --slots_category_favorite_active: url("../style/slotlist_tags_favorite.png");
+
+    --allpromo_icon: url("../style/allpromo.png");
+    --search_icon: url("../style/search.png");
+    --calendar_icon: url("../style/calendar.png");
+    --filter_icon: url("../style/filter_applied.png");
+    --peek_icon: url("../style/peek.png");
+    --peek_active_icon: url("../style/peek_a.png");
+    --profile_thumbnail: url("../style/profile_thumbnail.png");
+
+    --icon_wallet: url("../style/icon_wallet.png");
+    --icon_wallet_active: url("../style/icon_wallet.png");
+    --icon_wallet_hover: url("../style/icon_wallet.png");
+    --icon_treasure: url("../style/icon_treasure_chest.png");
+    --icon_treasure_active: url("../style/icon_treasure_chest.png");
+    --icon_treasure_hover: url("../style/icon_treasure_chest.png");
+    --icon_qq: url("../style/qq.png");
+    --icon_qq_active: url("../style/qq.png");
+    --icon_qq_hover: url("../style/qq.png");
+    --icon_contact: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/icon/contact.png");
+    --icon_contact_active: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/icon/contact_a.png");
+    --icon_contact_hover: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/icon/contact_hover.png");
+    --icon_mail: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/icon/mail.png");
+    --icon_mail_active: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/icon/mail_a.png");
+    --icon_mail_hover: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/icon/mail_hover.png");
+
+    --wallet_allin: url("../style/allin.png");
+    --wallet_allout: url("../style/allout.png");
+    --wallet_allin_disabled: url("../style/allin_disabled.png");
+    --wallet_allout_disabled: url("../style/allout_disabled.png");
+    --wallet_recommended: url("../style/recommend.png");
+    --wallet_recommended_a: url("../style/recommend.png");
+
+    --homepage_header_dropdown_bg: url("../style/img_dropdown_menu_bg.png");
+    --homepage_banner_arrow_right: url("../style/right.png");
+    --homepage_banner_arrow_left: url("../style/left.png");
+    --homepage_app_download_bg: url("../style/img_app_download_bg.png");
+    --homepage_slot_highlight_bg: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/homepage/sports_team_bg.png");
+    --homepage_nav_dropdown_vendorname_bg: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/homepage/vendorname_bg.png");
+
+    --general_arrow_up: url("../style/arrow_up.png");
+    --general_arrow_down: url("../style/arrow_down.png");
+    --general_arrow_left: url("../style/arrow_left.png");
+    --general_arrow_right: url("../style/arrow_right.png");
+    --tick_check: url("../style/check.png");
+    --tick_check_active: url("../style/check_a.png");
+
+    --general_arrow_right_active: url("../style/arrow_right.png");
+
+    --promo_mission_consecutive_mission_reward_bg: url("../style/weekly_btn_bg.png");
+    --promo_tag_bg: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/promo/promo_tag_bg.png");
+
+    --authentication_bg: url("../style/authentication_bg.png");
+    --game_live_bg: url("../style/img_innerpages_bg_live.png");
+    --game_sports_bg: url("../style/img_innerpages_bg_sports.png");
+    --game_esports_bg: url("../style/img_innerpages_bg_esports.png");
+    --game_poker_bg: url("../style/img_innerpages_bg_poker.png");
+    --game_lottery_bg: url("../style/img_innerpages_bg_lottery.png");
+    --fall_back_icon: url("../style/img_fallback_html.png");
+
+    /* addon bg */
+    --landing_block_title_normal_bg: url("../style/green_title_bg.png");
+    --landing_block_title_important_bg: url("../style/yellow_title_bg.png");
+    --landing_jackpot_highlight_bg: url("../style/jackpot_highlight_bg.png");
+    --landing_game_thumb_bg: url("../style/gamelist_bg.png");
+    --landing_right_menu_user_layer: url("../style/right_menu_top_layer.png");
+    --landing_footer_icon_phone: url("../style/icon_contact.png");
+    --landing_footer_icon_phone_hover: url("../style/icon_contact_hover.png");
+    --landing_footer_icon_email: url("../style/icon_email.png");
+    --landing_footer_icon_email_hover: url("../style/icon_email_hover.png");
+    --landing_footer_icon_cs: url("../style/icon_cs.png");
+    --landing_footer_icon_cs_hover: url("../style/icon_cs_hover.png");
+    --fish_title_bg: url("../style/fish_title_bg.png");
+    --daily_mission_header_bg: url("../style/mission_daily_header_bg.png");
+    --weekly_mission_header_bg: url("../style/mission_daily_header_bg.png");
+    --amount_light_bg: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/homepage/amount_light_bg.png");
+    --homepage_middle_banner_bg: url("../style/index_middle_banner.png");
+    --landing_footer_banner_bg: url("../style/footer_banner.png");
+    --landing_footer_banner_left: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/footer/footer_left.png");
+    --landing_gamecat_left: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/homepage/arrow_homepage_gamecat_left_h.png");
+    --landing_gamecat_right: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/homepage/arrow_homepage_gamecat_right_h.png");
+    --landing_header_icon01: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/general/h_icon01_on.png");
+    --landing_header_icon02: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/general/h_icon02_on.png");
+    --landing_header_icon03: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/general/h_icon03_on.png");
+    --landing_header_icon04: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/general/h_icon04_on.png");
+    --landing_middle_left: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/homepage/arrow_middle_left_hover.png");
+    --landing_middle_right: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/homepage/arrow_middle_right_hover.png");
+    --promo_index_all_default: url("../style/promo_all.png");
+    --promo_index_all_active: url("../style/promo_all_a.png");
+    --promo_index_all_general: url("../style/promo_all.png");
+    --announcement_icon_active: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/other/announcement_icon_active.png");
+    --announcement_icon: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/other/announcement_icon.png");
+    --records_popup_icon: url("../style/popup_records.png");
+    --img_box_rebate: url("../style/bg_rebate.png");
+
+    --vip_active: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/vip/vip_current_level.png");
+    --img_innerpages_vendor_bg: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/other/img_innerpages_vendor_bg.png");
+    --img_innerpages_vendor_bg_h: url("https://www.9500gg.com/framework/template/default/web/css/web/templateimage/other/img_innerpages_vendor_bg_h.png");
+    --treasure_filter: url("../style/filter.png");
+    --treasure_filter_a: url("../style/filter_open.png");
+
+    --img_box_mypromo: url("../style/img_box_mypromo.png");
+    --img_box_dailymission: url("../style/img_box_dailymission.png");
+    --img_box_weeklymission: url("../style/img_box_dailymission.png");
+}
